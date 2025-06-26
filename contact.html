@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="contact.js" defer></script>
+    <script src="menu.js" defer></script>
+
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <a href="index.html" id="website-name"><h1>Paws for Effect</h1></a>
+            <a href="adopt.html"><button id="donate-btn">Adopt</button></a>
+        </div>
+        <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+        <nav>
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About Us</a></li>
+                <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
+                <li><a class="nav-link" href="involved.html">Get Involved</a></li>
+                <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li><a class="nav-link" href="meet-devs.html">Meet the Devs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact">
+                <div class="contact-content">
+                    <div class="contact-div">
+                        <h1 id="contact-heading">CONTACT US</h1>
+                        <p>South Circular Road <br> Dublin 8, D08 V04N</p>
+                        <p id="contact-email">info@pawsforeffect.com</p>
+                        <p id="contact-phone">Call: +353 87 123 4567</p>
+                        <p id="contact-hours"><strong>Opening Hours:</strong> Tues–Sun 12–4pm</p>
+                    </div>
+                    <div class="comments">
+                        <h1 id="comment-heading">Got any feedback?</h1>
+                        <p id="response"></p>
+                        <form class="comment-form">
+                            <input type="text" name="name" id="name-input" placeholder="Name" required>
+                            <input type="text" name="subject" id="subject-input" placeholder="Subject" required>
+                            <input type="email" name="email" id="email-input" placeholder="Email" required>
+                            <textarea type="text" name="content" id="content-input" required></textarea>
+                            <button type="submit">Submit</button>
+                        </form>             
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.7874138643665!2d-6.2828892102480225!3d53.33107450082351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c1833b915c7%3A0x4f83acae16f5062e!2sGriffith%20College%20Dublin%20Main%20Campus!5e1!3m2!1sen!2sie!4v1747236475255!5m2!1sen!2sie" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            </div>
+        </section>
+    </main>
+
+     <footer class="footer">
+        <div id="footer-container">
+            <div class="footer-column">
+                <h2 id="website-name">Paws For Effect</h2>
+                <p>South Circular Road <br> Dublin 8, D08 V04N</p>
+                <p>info@pawsforeffect.com</p>
+                <p>Call: +353 87 123 4567</p>
+                <p><strong>Opening Hours:</strong> Tues–Sun 12–4pm</p>
+                <p>Registered Charity Number 3142847</p>
+            </div>
+                
+            <div class="footer-column">
+                <h4 class="footer-heading">Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <h4 class="footer-heading">Services</h4>
+                <ul>
+                    <li><a href="services.html">Neutering</a></li>
+                    <li><a href="services.html">Dog Training</a></li>
+                    <li><a href="services.html">Doggie Daycare</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-heading">Contact</h4>
+                <ul>
+                    <li><a href="contact.html">All Contact Details</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

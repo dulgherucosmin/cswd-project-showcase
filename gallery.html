@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css" />
+    <script src="gallery.js" defer></script>
+    <script src="menu.js" defer></script>
+    <title>Gallery</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <a href="index.html" id="website-name"><h1>Paws for Effect</h1></a>
+            <a href="adopt.html"><button id="donate-btn">Adopt</button></a>
+        </div>
+        <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+        <nav>
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About Us</a></li>
+                <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
+                <li><a class="nav-link" href="involved.html">Get Involved</a></li>
+                <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li><a class="nav-link" href="meet-devs.html">Meet the Devs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery"></section>
+
+        <section class="available-pets">
+            <h1 id="available-heading">Available Pets</h1>
+            <div class="gallery-buttons">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dogs">Dogs</button>
+                <button class="filter-btn" data-filter="cats">Cats</button>
+            </div>
+
+            <div class="gallery-images" id ="lightgallery">
+                <div class="image-box" data-name="cats">
+                    <a href="homepage-cat1.jpg">
+                        <img src="Images/homepage-cat1.jpg" alt="Max">
+                    </a>
+                    <h6>Max</h6>
+                </div>
+                <div class="image-box" data-name="dogs">
+                    <a href="homepage-dog1.jpg">
+                        <img src="Images/homepage-dog1.jpg" alt="Bolt">
+                    </a>
+                    <h6>Bolt</h6>
+                </div>
+                <div class="image-box" data-name="cats">
+                    <a href="homepage-cat2.jpg">
+                        <img src="Images/homepage-cat2.jpg" alt="Biscuit">
+                    </a>
+                    <h6>Biscuit</h6>
+                </div>
+                <div class="image-box" data-name="dogs">
+                    <a href="lily.jpg">
+                        <img src="Images/lily.jpg" alt="Lily">
+                    </a>
+                    <h6>Lily</h6>
+                </div>
+                <div class="image-box" data-name="cats">
+                    <a href="frank.jpg">
+                        <img src="Images/frank.jpg" alt="Frank">
+                    </a>
+                    <h6>Frank</h6>
+                </div>
+                <div class="image-box" data-name="dogs">
+                    <a href="homepage-dog2.jpg">
+                        <img src="Images/homepage-dog2.jpg" alt="Zach">
+                    </a>
+                    <h6>Zach</h6>
+                </div>
+            </div>
+            
+        </section> 
+    </main>
+
+     <footer class="footer">
+        <div id="footer-container">
+            <div class="footer-column">
+                <h2 id="website-name">Paws For Effect</h2>
+                <p>South Circular Road <br> Dublin 8, D08 V04N</p>
+                <p>info@pawsforeffect.com</p>
+                <p>Call: +353 87 123 4567</p>
+                <p><strong>Opening Hours:</strong> Tues–Sun 12–4pm</p>
+                <p>Registered Charity Number 3142847</p>
+            </div>
+                
+            <div class="footer-column">
+                <h4 class="footer-heading">Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <h4 class="footer-heading">Services</h4>
+                <ul>
+                    <li><a href="services.html">Neutering</a></li>
+                    <li><a href="services.html">Dog Training</a></li>
+                    <li><a href="services.html">Doggie Daycare</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-heading">Contact</h4>
+                <ul>
+                    <li><a href="contact.html">All Contact Details</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+</body>
+</html>
