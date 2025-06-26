@@ -25,7 +25,14 @@ websites as a team, splitting the work into Design and Scripting.
 
 ## 💻 Developers
 
-- Joshua Curtis [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/your-linkedin-username/)
+- Joshua Curtis | Frontend Developer
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/joshua-curtis-9156b72a7/)
+
+- Dulgheru Cosmin Alexandru | Frontend Developer
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/dulgheru-cosmin/)
+
+- Kisandu Dinusara Karunaratne | Frontend Developer & UI Designer
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/kisandu-dinusara-karunaratne-237627336/)
 
 ## 🧪 Technologies Used
 
