@@ -15,6 +15,8 @@ compatibility, and showcasing adoptable animals to support the shelter’s
 mission. Throughout this project, we learned how to effectively build
 websites as a team, splitting the work into Design and Scripting.
 
+❗The original repository, where all the code was uploaded and reviewed can be seen [here](https://github.com/dulgherucosmin/cswd-final-project).
+
 ## 🌟 Features
 
 - 💸 Donation portal
