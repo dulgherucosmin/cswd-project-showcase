@@ -1649,6 +1649,10 @@ main .dev #dev-text {
         width: 100%;
     }
 
+    main .help #help-container {
+        text-align: center;
+    }
+
     /* About Us Page */
 
     main .about #about-text {
