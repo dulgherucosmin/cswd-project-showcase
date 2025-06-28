@@ -280,6 +280,8 @@ header nav ul {
 
     main .adopt #adopt-text {
         width: 100%;
+        text-align: center;
+        
     }
 
     main #service-container {
@@ -398,6 +400,8 @@ main .adopt {
     flex-direction: column;
     padding-top: 2rem;
     margin: 0 8rem;
+
+    align-content: center;
 }
 
 main .adopt .pet {
@@ -431,19 +435,24 @@ main #adopt-text {
     line-height: 1.4;
 }
 
+main .adopt a {
+    text-decoration: none;
+}
+
 main .adopt #view-btn {
+    display: block;
+
     font-family: 'Lato Bold';
     font-size: .75rem;
 
     padding: .75rem 1.5rem;
+    margin: 0 auto;
     text-transform: uppercase;
     color: var(--sitewhite);
 
     background-color: var(--main);
     border: 2px solid var(--main);
     border-radius: 32px;
-
-    align-self: center;
 
     transition: all 0.3s ease-in-out;
 }
@@ -1608,6 +1617,21 @@ main .dev #dev-text {
 
     /* Index */
 
+    main .adopt {
+        width: 50dvw;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    main .adopt #adopt-container {
+        padding: 0;
+    }
+
+    main .adopt #help {
+        padding: 0;
+    }
+
     main .adopt #adopt-pets {
         display: flex;
         flex-direction: column;
@@ -1617,7 +1641,7 @@ main .dev #dev-text {
         align-items: center;
     }
 
-    main .adopt #adopt-text {
+    main #adopt-text {
         width: 100%;
     }
 
