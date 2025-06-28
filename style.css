@@ -1747,6 +1747,11 @@ main .dev #dev-text {
         text-align: center;
     }
 
+    main #dev-description #bold {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
     /* Individual Pet Pages */
 
     main section #pet-details {
